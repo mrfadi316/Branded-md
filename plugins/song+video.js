@@ -17,7 +17,7 @@ const data = search.videos[0];
 const url = data.url
 
 let desc = '
-    *BRANDED MD AUDIO DOWNLOADER*
+    ⬇️ *BRANDED MD AUDIO DOWNLOADER* ⬇️
 
 title:  ${data.title}
 description: ${data.description}
@@ -27,7 +27,7 @@ views: ${data.views}
 
 MADE BY *MR FADI*
 '
-await conn,sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
+await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
     
 //download audio
 
