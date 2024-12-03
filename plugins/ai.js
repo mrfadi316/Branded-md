@@ -15,4 +15,5 @@ return reply(`${data.data}`)
 }catch(e){
 console.log(e)
 reply(`${e}`)
+})
 }
